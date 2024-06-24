@@ -1,0 +1,7 @@
+/* custom.css */
+.custom-underline {
+  text-decoration: underline;
+  /* text-decoration-color: #ffa500; */ /* 或者使用 var(--custom-orange) 如果你在 CSS 变量中定义了颜色 */
+  text-decoration-color: var(--custom-orange);
+  text-decoration-thickness: 2px; /* 根据需要调整下划线粗细 */
+}
