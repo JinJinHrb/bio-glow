@@ -18,7 +18,7 @@ export const Dashboard = () => {
     <div ><Link href={'/about'} className={'underline hover:no-underline'}>link about</Link></div>
     <div ><Link href={'/about/xt/crm'} className={'underline hover:no-underline'}>link about xt/CRM</Link></div>
     <div ><Link href={'/blog'} className={'underline hover:no-underline'}>link blog</Link></div>
-    <div><a href={'/'} className={'underline hover:no-underline'}>a {'->'} home</a></div>
+    <div><a href={'/gallery'} className={'underline hover:no-underline'}>a {'->'} link gallery</a></div>
   </div >
 }
 
